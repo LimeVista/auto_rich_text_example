@@ -23,6 +23,9 @@ flutter:
   assets:
     - assets/images/
   fonts:
-    - family: IconFont
+    - family: Icon
       fonts:
-        - asset: assets/fonts/icon_font.ttf
+        - asset: assets/fonts/icon.ttf
+    - family: Borel
+      fonts:
+        - asset: assets/fonts/Borel-Regular.ttf
