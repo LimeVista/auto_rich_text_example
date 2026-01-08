@@ -148,10 +148,12 @@ class _HomePageState extends State<HomePage> {
 <color=green># &lt;click='id:double; type:double'&gt;Double Click&lt;/click&gt;</color>
 <color=green># &lt;click='id:long; type:long; args:a,b'&gt;Long Press with Args&lt;/click&gt;</color>
 <color=green># &lt;tap='id:tap; types:tap'&gt;Tap Text&lt;/tap&gt;</color>
+<color=green># &lt;ref=custom/&gt;</color>
 <click='id:click'>Clickable Text</click>
 <click='id:double; type:double'>Double Click</click>
 <click='id:long; type:long; args:a,b'>Long Press with Args</click>
 <tap='id:tap; types:tap'>Tap Text</tap>
+<ref=custom/>
 
 <color=green># &lt;bold&gt;&lt;italic&gt;&lt;color=#FF5722&gt;Bold Italic Orange&lt;/color&gt;&lt;/italic&gt;&lt;/bold&gt;</color>
 <color=green># &lt;size=18&gt;&lt;weight=w600&gt;&lt;u=blue&gt;Large Bold Blue Underline&lt;/u&gt;&lt;/weight&gt;&lt;/size&gt;</color>
