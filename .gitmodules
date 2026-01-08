@@ -1,0 +1,4 @@
+[submodule "auto_rich_text"]
+	path = auto_rich_text
+	url = https://github.com/LimeVista/auto_rich_text.git
+	branch = main

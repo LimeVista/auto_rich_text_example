@@ -1,0 +1,28 @@
+name: auto_rich_text_example
+description: "Auto Rich Text for Flutter example."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^7.0.0
+  auto_rich_text:
+    path: auto_rich_text
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: IconFont
+      fonts:
+        - asset: assets/fonts/icon_font.ttf
